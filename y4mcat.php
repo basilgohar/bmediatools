@@ -1,7 +1,7 @@
 #!/bin/env php
 <?php
 /*
-   Copyright Â© 2010 Basil Mohamed Gohar <abu_hurayrah@hidayahonline.org>
+   Copyright © 2010 - 2011 Basil Mohamed Gohar <abu_hurayrah@hidayahonline.org>
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -50,3 +50,6 @@ foreach ($args as $file) {
     stream_copy_to_stream($y4mfp, STDOUT);
     fclose($y4mfp);
 }
+
+exit(0);    //  Exit normally
+
