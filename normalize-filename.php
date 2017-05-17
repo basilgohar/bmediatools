@@ -2,7 +2,7 @@
 <?php
 
 if (! isset($argv[1])) {
-    die("Please pass a string (filename) to this utility.");
+    die("Please pass a string (filename) to this utility.\n");
 }
 
 normalize_filename($argv[1]);
